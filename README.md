@@ -1,4 +1,4 @@
-##📋 Visão Geral do Projeto
+📋 ##Visão Geral do Projeto
 
 Aplicação Web do tipo Single Page Application (SPA) desenvolvida em React.JS para publicação e consulta de anúncios classificados:
 
@@ -7,7 +7,7 @@ Frontoffice (Área Pública): Qualquer visitante pode pesquisar anúncios, filtr
 Backoffice (Dashboard Privada): Área protegida por autenticação (username e password) onde cada utilizador/vendedor pode gerir os seus anúncios (Criar, Ler, Editar e Apagar — CRUD) e acompanhar estatísticas de visualizações e interações (likes).
 
 
-##🗄️ Modelo de Dados (Google Sheets + Sheety)
+🗄️ ##Modelo de Dados (Google Sheets + Sheety)
 
 A base de dados será estruturada numa folha de cálculo do Google, exposta via endpoints REST pelo Sheety:
 
@@ -20,7 +20,7 @@ anuncios: id, titulo, descricao, preco, imagem (URL), categoriaId, utilizadorId,
 comentarios: id, anuncioId, autor, mensagem, data
 
 
-##✅ Tasklist de Desenvolvimento
+✅ ##Tasklist de Desenvolvimento
 
 ###Fase 1: Configuração Inicial e Dados
 
