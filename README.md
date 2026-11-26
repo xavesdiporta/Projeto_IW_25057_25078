@@ -1,4 +1,4 @@
-📋 ##Visão Geral do Projeto
+## 📋 Visão Geral do Projeto
 
 Aplicação Web do tipo Single Page Application (SPA) desenvolvida em React.JS para publicação e consulta de anúncios classificados:
 
@@ -7,7 +7,7 @@ Frontoffice (Área Pública): Qualquer visitante pode pesquisar anúncios, filtr
 Backoffice (Dashboard Privada): Área protegida por autenticação (username e password) onde cada utilizador/vendedor pode gerir os seus anúncios (Criar, Ler, Editar e Apagar — CRUD) e acompanhar estatísticas de visualizações e interações (likes).
 
 
-🗄️ ##Modelo de Dados (Google Sheets + Sheety)
+## 🗄️ Modelo de Dados (Google Sheets + Sheety)
 
 A base de dados será estruturada numa folha de cálculo do Google, exposta via endpoints REST pelo Sheety:
 
@@ -20,9 +20,9 @@ anuncios: id, titulo, descricao, preco, imagem (URL), categoriaId, utilizadorId,
 comentarios: id, anuncioId, autor, mensagem, data
 
 
-✅ ##Tasklist de Desenvolvimento
+## ✅ Tasklist de Desenvolvimento
 
-###Fase 1: Configuração Inicial e Dados
+### Fase 1: Configuração Inicial e Dados
 
 [ ] Instalar Node.js e inicializar o projeto React no PhpStorm (ex: npm create vite@latest).
 
@@ -34,7 +34,7 @@ comentarios: id, anuncioId, autor, mensagem, data
 
 [ ] Ligar a folha de cálculo ao Sheety, ativar os métodos GET, POST, PUT e DELETE, e testar os endpoints.
 
-###Fase 2: Solução Básica (Meta: até 14 valores)
+### Fase 2: Solução Básica (Meta: até 14 valores)
 
 [ ] Serviço de API: Criar funções para consumir os endpoints do Sheety (fetch ou axios).
 
@@ -63,7 +63,7 @@ comentarios: id, anuncioId, autor, mensagem, data
 [ ] Responsividade: Garantir layout adaptado a ecrãs de computador e smartphone (Mobile-First / Media Queries / Flexbox / Grid).
 
 
-###Fase 3: Solução Intermédia (Meta: até 16 valores)
+### Fase 3: Solução Intermédia (Meta: até 16 valores)
 
 [ ] Relacionamento entre Entidades:
 
@@ -75,7 +75,7 @@ comentarios: id, anuncioId, autor, mensagem, data
 
 [ ] (Opcional) Permitir gerir categorias no Backoffice.
 
-Fase 4: Solução Avançada & Funcionalidades Extra (Meta: até 18+ valores)
+### Fase 4: Solução Avançada & Funcionalidades Extra (Meta: até 18+ valores)
 
 [ ] Interação com Visitantes (Frontoffice):
 
